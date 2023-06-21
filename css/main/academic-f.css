@@ -1,0 +1,25 @@
+.academic__formation{
+    background: #eaf2fd;
+    padding: 3rem 5rem;
+}
+.af__title{
+    font-size: 30px;
+    margin: 2rem 0rem;
+}
+.af__boxes{
+    display: flex;
+    
+    justify-content: space-between;
+    height: 350px;
+}
+.af__box{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.school__name{
+    
+}
+.school__year{
+    
+}
