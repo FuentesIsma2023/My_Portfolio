@@ -1,0 +1,38 @@
+.skills{
+    background-color: whitesmoke;
+    padding: 3rem 5rem;
+    
+}
+.skills__main--title{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 25px;
+}
+.skill__boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 250px;
+}
+.skills__box{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    background: white;
+    width: 250px;
+    /* position: relative; */
+    border-radius: 15px;
+}
+.skill__icon{
+    /* position: absolute; */
+    margin-left: 10%;
+    width: fit-content;
+    margin-bottom: 5%;
+    
+}
+.skills__title{
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-bottom: 10%;
+    
+}

@@ -1,0 +1,39 @@
+.header{
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.name__vector{
+    display: flex;
+    align-items: center;
+    flex: 2.5;
+    font-size: 25px;
+}
+.name{
+    margin-left: 1rem;
+}
+.nav__menu{
+    flex: 2.5;
+    font-size: 20px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav__link:hover{
+    text-decoration: underline;
+}
+.nav__link{
+    text-decoration: none;
+    color: black;
+}
+.nav__link--contact{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}

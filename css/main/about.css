@@ -1,0 +1,14 @@
+.about{
+    background: #eaf2fd;
+    padding: 3rem 5rem;
+}
+.about__title{
+    font-size: 30px;
+    margin: 2rem 0rem;
+}
+.about__description{
+    margin: 2rem 0rem;
+    line-height: 1.5rem;
+    width: 80%;
+    font-size: 20px;
+}

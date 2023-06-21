@@ -1,0 +1,33 @@
+.presentation__content{
+    background: whitesmoke;
+    display: flex;
+    padding: 3rem 5rem;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid blue; */
+}
+.presentation__title{
+    margin: 2rem 0rem;
+}
+.presentation__texts{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+    font-size: 20px;
+    line-height: 1.5rem;
+    
+}
+.presentation__list{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.presentation__link{
+    text-decoration: none;
+    color: black;
+}
+.presentation__photo{
+    border-radius: 50%;
+    /* border: solid red; */
+}

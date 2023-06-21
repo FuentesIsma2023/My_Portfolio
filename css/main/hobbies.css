@@ -1,0 +1,34 @@
+.hobbies{
+    background-color: whitesmoke;
+    padding: 3rem 5rem;
+}
+.hobbies__main--title{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 25px;
+    
+}
+.hobbies__boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 250px;
+}
+.hobbies__box{
+    background: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    border-radius: 15px;
+}
+.hobbie__icon{
+    margin-left: 10%;
+    width: fit-content;
+    margin-bottom: 5%;
+    
+}
+.hobbie__title{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
