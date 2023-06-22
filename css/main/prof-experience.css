@@ -1,0 +1,60 @@
+.profesional__exp{
+    background-color: whitesmoke;
+    padding: 3rem 5rem;
+}
+.profesional__exp__title{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    
+}
+.prof__exp{
+    display: flex;
+    margin: 3rem 0;
+    width: auto;
+    justify-content: space-between;
+    
+    flex: 2.5;
+}
+.prof-exp__derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    
+    flex: 2.5;
+    padding-left: 5rem;
+}
+.prof-exp__derecha_title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.prof-exp__derecha_desc{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    
+}
+.botones{
+    margin-top: 1rem;
+    display: flex;
+    height: 50px;
+    
+}
+.repositorio{
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+    height: auto;
+    width: 150px;
+    border-radius: 15px;
+}
+.ver__demo{
+    height: auto;
+    width: 150px;
+    margin-left: 1rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+}
