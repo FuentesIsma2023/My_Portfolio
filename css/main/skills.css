@@ -5,8 +5,8 @@
 }
 .skills__main--title{
     text-align: center;
-    padding: 1rem 0rem;
-    font-size: 25px;
+    margin: 2rem 0;
+    font-size: 30px;
 }
 .skill__boxes{
     display: flex;
