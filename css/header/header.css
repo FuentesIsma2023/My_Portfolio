@@ -37,3 +37,47 @@
     font-weight: 700;
     text-decoration: none;
 }
+.nav__link--contact:active{
+    color: blue;
+}
+@media screen and (max-width:475px) {
+    .header{
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        
+    }
+    .logo{
+        display: none;
+    }
+    .name{
+        font-size: 30px;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .nav__list{
+        padding-top: 1rem;
+        display: flex;
+        width: 100vw;
+        
+        font-size: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 1rem;
+    }
+    .nav__item{
+        width: 60%;
+        
+
+    }
+}

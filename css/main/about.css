@@ -12,3 +12,25 @@
     width: 80%;
     font-size: 20px;
 }
+@media screen and (max-width:475px) {
+    .about{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        
+    }
+    .about__title{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .about__description{
+        padding: 0;
+    }
+}

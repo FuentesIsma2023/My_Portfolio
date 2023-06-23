@@ -49,30 +49,20 @@
     color: #2a7ae4;
     height: auto;
     width: 150px;
-    
+    cursor: pointer;
     color: #2a7ae4;
     font-weight: 600;
 }
-.repositorio:hover{
-    background: #2a7ae4;
-    border: 1px solid whitesmoke;
-    color: white;
-    height: auto;
-    width: 150px;
-}
+
 .ver__demo{
     height: auto;
     width: 150px;
     margin-left: 1rem;
-    
+    cursor: pointer;
     border: none;
     background-color: #2a7ae4;
     border: 1px solid #2a7ae4;
     color: white;
     font-weight: 600;
-}
-.ver__demo:hover{
-    background-color: whitesmoke;
-    border: 1px solid #2a7ae4;
-    color: #2a7ae4;
+    transition: ease-out .5s;
 }

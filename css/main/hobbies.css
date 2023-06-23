@@ -32,3 +32,34 @@
     margin-left: 10%;
     margin-bottom: 10%;
 }
+@media screen and (max-width:475px) {
+    .hobbies{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100vw;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 0;
+        margin: 0;
+    }
+    .hobbies__main--title{
+        font-size: 30px;
+        margin-top: 30px 0px;
+    }
+    .hobbies__boxes{
+        
+        height: fit-content;
+        justify-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .hobbies__box{
+        border: solid #eaf2fd;
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+    }
+}

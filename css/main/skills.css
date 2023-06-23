@@ -37,3 +37,36 @@
     margin-bottom: 10%;
     
 }
+@media screen and (max-width:475px) {
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100vw;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 0;
+        margin: 0;
+    }
+    .skills__main--title{
+        font-size: 30px;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .skill__boxes{
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        justify-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .skills__box{
+        border: solid #eaf2fd;
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+    }
+}
