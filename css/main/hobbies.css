@@ -16,7 +16,7 @@
 }
 .hobbies__box{
     background: white;
-    width: 250px;
+    width: 230px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;

@@ -20,12 +20,10 @@
 .af__box{
     display: flex;
     flex-direction: column;
-    
-    
 }
 .af__imagen{
     height: 350px;
-    width: 350px;
+    width: 450px;
     margin: 0 auto;
     background-position: center;
     background-size: auto;
