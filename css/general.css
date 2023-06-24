@@ -8,3 +8,18 @@
     box-sizing: border-box;
     font-family: 'Pathway Extreme', sans-serif;
 }
+h2{
+    color: cornflowerblue;
+    text-shadow: #464646;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes colorchange{
+    0% {color:cornflowerblue}
+    50%{color: blue;}
+    100%{color: #464646;}
+}

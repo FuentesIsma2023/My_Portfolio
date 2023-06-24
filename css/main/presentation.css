@@ -37,61 +37,63 @@
 }
 @media screen and (max-width:475px) {
     .presentation__content{
-        width: 100vw;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
+        padding-top: 1rem;
         justify-content: center;
         align-content: center;
-        align-items: center;
         text-align: center;
-        
+        padding-bottom: 1rem;
     }
     .presentation__box{
-        
-        width: auto;
+        margin: 0;
         padding: 0;
+        
+        box-sizing: border-box;
+        background-color: #eaf2fd;
     }
     .presentation__title{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         line-height: normal;
-        
+        font-size: 20px;
     }
     .presentation__description{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
-        margin-top: 2rem;
+        margin: 2rem;
         padding: 0;
-        flex-wrap: wrap;
+        box-sizing: border-box;
+        text-align: justify;
+        
     }
     .presentation__navigation{
-        
-        display: flex;
-        
-        align-content: center;
+        margin: 0 2rem 1rem 0rem;
+        padding: 0;
+        box-sizing: border-box;
         align-items: center;
+        align-content: center;
         
-        width: 100vw;
     }
     .presentation__list{
-        font-weight: 700;
-        width: 100vw;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-        margin-bottom: 3rem;
-        flex-direction: ;
-        font-size: 16px;
-        
+        justify-content: space-between;
+    }
+    .presentation__item{
+        font-weight: 700;
+        margin-left: 2rem;
     }
     .arrow{
         display: none;
     }
     .presentation__photo{
+        margin-top: 1rem;
         width: 250px;
         height: 250px;
     }
-
 }
