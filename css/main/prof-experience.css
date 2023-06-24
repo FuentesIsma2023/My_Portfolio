@@ -64,5 +64,32 @@
     border: 1px solid #2a7ae4;
     color: white;
     font-weight: 600;
-    transition: ease-out .5s;
+    
+}
+@media screen and (max-width:475px) {
+    .profesional__exp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .prof-exp__derecha{
+        
+        padding: 0;
+        margin: 0;
+    }
+    .prof__exp__img{
+        width: 250px;
+    }
+    .prof__exp{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .profesional__exp__title{
+        margin: 0;
+        padding: 0;
+        padding: 30px;
+    }
 }
