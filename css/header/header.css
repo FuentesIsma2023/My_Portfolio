@@ -40,7 +40,7 @@
 .nav__link--contact:active{
     color: blue;
 }
-@media screen and (max-width:475px) {
+@media screen and (max-width:475) {
     .header{
         margin: 0;
         padding: 0;
@@ -51,7 +51,6 @@
         align-content: center;
         flex-direction: column;
         text-align: center;
-        
     }
     .name__vector{
         margin-top: 1rem;
@@ -81,8 +80,5 @@
         align-items: center;
         font-size: 20px;
         line-height: normal;
-    }   
-}
-@media screen and (max-width:1024px){
-    
-}
+    }
+}   
