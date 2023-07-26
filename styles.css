@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+header aside{
+    display: flex;
+    align-items: center;
+}
+header aside img{
+    width: 15px;
+}
+header aside h3{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #464646;
+}
+header nav{
+    font-size: 15px;
+    color: #464646;
+}
+header nav a{
+    text-decoration: none;
+    color: #464646;
+}
