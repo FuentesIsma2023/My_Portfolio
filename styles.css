@@ -52,6 +52,9 @@ main{
     display: flex;
     margin-bottom: 10px;
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    
 }
 .presentation__content .presentation__navigation a{/*links*/
     text-decoration: none;
