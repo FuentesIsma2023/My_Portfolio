@@ -9,13 +9,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 20px;
 }
 .name__vector{
     display: flex;
+    text-align: center;
+    margin-right: 20px;
 }
 .name__vector img{
-    width: 20px;
+    display: none;
 }
 .name__vector h2{
     margin-left: 10px;
@@ -28,7 +30,7 @@ header .nav__menu{
 main{
     display: flex;
     flex-direction: column;
-    padding: 10px 10px;
+    padding: 20px;
     margin: 0 20px;
     justify-content: center;
 }
@@ -58,36 +60,115 @@ main{
 }
 .presentation__content .presentation__navigation a{/*links*/
     text-decoration: none;
-    margin-right: 20px;
     font-weight: 600;
-    
+    margin-left: 10px;
+}
+.presentation__content .presentation__navigation a i{
+    margin-bottom: 10px;
 }
 .presentation__content .presentation__photo{/*foto de perfil*/
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 10px 0;
     border-radius: 50%;
 }
 
 /* ******************************ABOUT ME************************************************** */
 .about{
-    text-align: center;    
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.about h2{
+    margin-bottom: 10px;
+}
+.about p{
+    text-align: justify;
+}
+.about img{
+    margin: 10px 0;
 }
 
-
-
-
+/* ********************************************SKILLS**************************************** */
 .skills{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.skills h2{
+    margin: 20px 0;
+}
+.skills .skill__boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 250px;
+}
+.skills__box{
+    box-shadow: 1px 2px 3px lightgray;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
     
 }
+.skills__box h3{
+    display: none;
+}
+
+/* ********************************hobbies*********************************** */
 .hobbies{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
+.hobbies h2{
+    margin: 10px 0;
+}
+.hobbies .hobbies__boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 250px;
+    
+}
+.hobbies__box{
+    box-shadow: 1px 2px 3px lightgray;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+}
+.hobbies__box h3{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 .academic__formation{
     display: flex;
     flex-direction: column;
