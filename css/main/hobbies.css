@@ -1,72 +1,33 @@
 .hobbies{
-    background-color: whitesmoke;
-    padding: 3rem 5rem;
-}
-.hobbies__main--title{
-    text-align: center;
-    padding: 1rem 0rem;
-    font-size: 30px;
-    
-}
-.hobbies__boxes{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+.hobbies .hobbies__boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: 250px;
+    justify-content: space-around;
+    width: auto;
+    height: 100%;
 }
 .hobbies__box{
-    background: white;
-    width: 230px;
+    box-shadow: 1px 2px 3px lightgray;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    border-radius: 15px;
+    border-radius: 10px;
+    transition: 1.1s;
 }
-.hobbie__icon{
-    margin-left: 10%;
-    width: fit-content;
-    margin-bottom: 5%;
-    
+.hobbies__box:hover{
+    scale: 1.1;
 }
-.hobbie__title{
-    margin-left: 10%;
-    margin-bottom: 10%;
+.hobbies__box h3{
+    display: none;
 }
-@media screen and (max-width:475px) {
-    .hobbies{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: auto;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .hobbies__main--title{
-        font-size: 30px;
-        margin: 0;
-        padding: 0;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    .hobbies__boxes{
-        margin: 0;
-        padding: 0;
-        box-sizing: 0;
-        height: fit-content;
-        justify-content: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-bottom: 1rem;
-    }
-    .hobbies__box{
-        border: solid #eaf2fd;
-       justify-content: center;
-       align-items: center;
-       align-content: center;
-    }
-}
-

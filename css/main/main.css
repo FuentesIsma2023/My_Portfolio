@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@200;400&family=Raleway:wght@200;300&family=Ysabeau+Office:wght@100;200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ************************************************************************* */
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-content: center;
+    box-shadow: 1px 2px 3px lightblue;
+    background-image: linear-gradient(to right, #c0d3eb, #fff);
+}

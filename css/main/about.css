@@ -1,47 +1,12 @@
 .about{
-    background: #eaf2fd;
-    padding: 3rem 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.about__title{
-    font-size: 30px;
-    margin: 2rem 0rem;
+.about p{
+    text-align: justify;
 }
-.about__description{
-    margin: 2rem 0rem;
-    line-height: 1.5rem;
-    width: 80%;
-    font-size: 20px;
+.about img{
+    margin: 10px 0;
 }
-@media screen and (max-width:475px) {
-    .about{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
-    .about__title{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .about__description{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-align: justify;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        width: auto;
-    }
-    .about__signature{
-        width: max-content;
-        margin: 0;
-        padding: 0;
-    }
-}
-

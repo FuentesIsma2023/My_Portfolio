@@ -1,73 +1,34 @@
 .skills{
-    background-color: whitesmoke;
-    padding: 3rem 5rem;
-    
-}
-.skills__main--title{
-    text-align: center;
-    margin: 2rem 0;
-    font-size: 30px;
-}
-.skill__boxes{
-    
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    height: 450px;
+}
+.skills .skill__boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: 250px;
+    justify-content: space-around;
+    width: auto;
+    height: 100%;
 }
 .skills__box{
+    box-shadow: 1px 2px 3px lightgray;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    background: white;
-    width: 230px;
-    /* position: relative; */
-    border-radius: 15px;
+    border-radius: 10px;
+    transition: 1.1s;
 }
-.skill__icon{
-    /* position: absolute; */
-    margin-left: 10%;
-    width: fit-content;
-    margin-bottom: 5%;
-    
+.skills__box:hover{
+    scale: 1.1;
 }
-.skills__title{
-    /* position: absolute; */
-    margin-left: 10%;
-    margin-bottom: 10%;
-    
-}
-@media screen and (max-width:475px) {
-    .skills{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-    }
-    .skills__main--title{
-        font-size: 30px;
-        margin: 0;
-        padding: 0;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    .skill__boxes{
-        margin: 0;
-        padding: 0;
-        height: fit-content;
-        justify-content: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        
-    }
-    .skills__box{
-        border: solid #eaf2fd;
-       justify-content: center;
-       align-items: center;
-       align-content: center;
-    }
+.skills__box h3{
+    display: none;
 }
