@@ -16,14 +16,14 @@
     <link rel="stylesheet" href="css/main/contacto.css">
     <link rel="stylesheet" href="css/footer/footer.css"> -->
     <link rel="stylesheet" href="css/general.css"> 
-
+    <link rel="stylesheet" href="/section_titles.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="name__vector">
             <img src="images/vector.png" alt="" class="logo">
-            <h2 class="name">Ismael Najera Fuentes</h2>
+            <h2 class="name">Ismael <span class="lastname1">Najera</span> <span class="lastname2">Fuentes</span></h2>
         </div>
         <nav class="nav__menu">
             <a href="#about" >About me</a>
@@ -37,7 +37,7 @@
 <!-- presentation texts and foto -->
     <main>
         <section id="inicio" class="presentation__content">
-                <h3 class="presentation__title">Hi, my name is Ismael and I'm a frontend development <b>student</b></h3>
+                <h3 class="presentation__title">Hi, my name is Ismael Najera Fuentes and I'm a frontend <b>developer</b></h3>
                 <p class="presentation__description">I've been formed by ... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic beatae maiores praesentium ipsa vel? Facilis fugit aliquam minus cum vitae. Praesentium alias recusandae sed dolore ea optio inventore ipsa nesciunt! y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam</p>
                 <nav class="presentation__navigation">
                     <a class="presentation__link" href="https://github.com/FuentesIsma2023"><i class="fa-brands fa-github fa-beat-fade" style="color: #191b1f;"></i> Github</a>
@@ -49,13 +49,13 @@
         </section>
 <!-- section about me -->
         <section class="about" id="about">
-            <h2 class="about__title">About me</h2>
+            <h2 class="section__title">About me</h2>
             <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad delectus, error eligendi maxime dolor tenetur, unde ab numquam quidem beatae magni molestiae. Tenetur vero exercitationem eum inventore consequatur ad. <br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel atque accusamus in repellat sint ipsa dolorum, recusandae sunt maiores deserunt voluptas obcaecati, nemo, autem et voluptate eos dolores aliquid eligendi.</p>
             <img src="images/photo&signature/signature.png" alt="foto de perfil" class="about__signature">
         </section>
 <!-- section skills and hobbies -->
         <section class="skills" id="skills">
-            <h2 class="skills__main--title">Skills</h2>
+            <h2 class="section__title">Skills</h2>
             <div class="skill__boxes">
                 <div class="skills__box">
                     <h3 class="skills__title">Html5</h3>
@@ -64,6 +64,10 @@
                 <div class="skills__box">
                     <h3 class="skills__title">CSS3</h3>
                     <img src="/images/skills/css (2).png" class="skill__icon">
+                </div>
+                <div class="skills__box">
+                    <h3 class="skills__title">JavaScript</h3>
+                    <img width="120px" src="/images/skills/JavaScript-Logo-2048x1280.png" class="skill__icon">
                 </div>
                 <div class="skills__box">
                     <h3 class="skills__title">PHP</h3>
@@ -77,15 +81,12 @@
                     <h3 class="skills__title">React</h3>
                     <img src="/images/skills/react_original_wordmark_logo_icon_146375.png" class="skill__icon">
                 </div>
-                <div class="skills__box">
-                    <h3 class="skills__title">JavaScript</h3>
-                    <img width="120px" src="/images/skills/JavaScript-Logo-2048x1280.png" class="skill__icon">
-                </div>
+                
             </div>
         </section>
 <!-- section hobbies -->
         <section class="hobbies" id="hobbies">    
-            <h2 class="hobbies__main--title">Hobbies</h2>
+            <h2 class="section__title">Hobbies</h2>
             <div class="hobbies__boxes">
                 <div class="hobbies__box">
                     <h3 class="hobbie__title">Reading</h3>
@@ -114,116 +115,80 @@
             </div>
         </section>
 <!-- section academic formation -->
-        <section class="academic__formation" id="formation">
-            <h2 class="af__title">Academic Formation</h2>
+        <section class="academic__formation">
+            <h2 class="section__title">Academic Formation</h2>
             <div class="af__boxes">
                 <div class="af__box">
-                    <div class="af__imagen af__imagen--ufpr"></div>
-                    <span class="school__name">Data Analisis</span>
-                    <span class="school__year">2018 - UFPR</span>
+                    <img src="images/formation/EPO16.png" alt="">
+                    <span class="school__name">High School Degree</span>
+                    <span class="school__year">2003 - 2006</span>
                 </div>
-                <div class="af__box">
-                    <div class="af__imagen af__imagen--alura"></div>
-                    <span class="school__name">UX Design formation</span>
-                    <span class="school__year">2019 - Alura</span>
-                </div>
-                <div class="af__box">
-                    <div class="af__imagen af__imagen--ufrj"></div>
-                    <span class="school__name">postgraduate in design</span>
-                    <span class="school__year">Coursing - UFRJ</span>
-                </div>
-            </div>
         </section>
-<!-- Profesional Experience -->
+<!-- ********************Profesional Experience *********************-->
         <section class="profesional__exp" id="projects">
-
-            <h2 class="profesional__exp__title">Professional Experience</h2>
-
-            <div class="prof__exp2">
+            <h2 class="section__title">Professional Experience</h2>
+            <div class="profesional__exp_box">
                 <div class="prof-exp__izquierda">
-                    <img class="prof__exp__img" src="images/projects/decod_print.png" alt="imagen de proyecto">
+                    <img src="/images/projects/encriptador alura.png" alt="">
                 </div>
-
-                <div class="prof-exp__derecha">
-                    <span class="prof-exp__derecha_title">Text Encrypter</span>
-                    <span class="prof-exp__derecha_desc">Challenge Alura Codificador</span>
-                    <div class="botones">
-                        <button class="repositorio">Repository</button>
-                        <button class="ver__demo">see demo</button>
-                    </div>
+                <div class="prof__texts__derecha">
+                    <span class="text1">text encripter</span>
+                    <span class="text2">chalenge alura codificator</span>
                 </div>
-
+                <div class="buttons">
+                    <button class="repositorio"><a href="https://github.com/FuentesIsma2023/encriptador_alura.git" target="_blank"> Repository</a></button>
+                    <button class="ver__demo"><a href=https://encriptador-alura-6d0glk5mp-fuentesisma2023.vercel.app/ target="_blank">see demo</a></button>
+                </div>
             </div>
-
-            <div class="prof__exp1">
+            <div class="profesional__exp_box">
                 <div class="prof-exp__izquierda">
-                    <img class="prof__exp__img" src="images/projects/forca_print.png" alt="imagen de proyecto">
+                    <img src="/images/projects/Protocols Firstcall project.png" alt="">
                 </div>
-
-                <div class="prof-exp__derecha">
-                    <span class="prof-exp__derecha_title">Game created using HTML and JavaScript</span>
-                    <span class="prof-exp__derecha_desc">Challenge Oracle</span>
-                    <div class="botones">
-                        <button class="repositorio">Repository</button>
-                        <button class="ver__demo">See demo</button>
-                    </div>
+                <div class="prof__texts__derecha">
+                    <span class="text1">company protocols</span>
+                    <span class="text2">developed to the company i work for</span>
                 </div>
-
+                <div class="buttons">
+                    <button class="repositorio"><a href="https://github.com/FuentesIsma2023/firstcall_protocols.git" target="_blank"> Repository</a></button>
+                    <button class="ver__demo"><a href="https://vercel.com/fuentesisma2023/firstcall-protocols/CYDWMTfjeXf1nnzanGNCtEXg5reM" target="_blank"> see demo</a></button>
+                </div>
             </div>
-
-            <div class="prof__exp2">
-
+            <div class="profesional__exp_box">
                 <div class="prof-exp__izquierda">
-                    <img class="prof__exp__img" src="images/projects/secretcode_print.png" alt="imagen de proyecto">
+                    <img src="/images/projects/alura geek project.png" alt="">
                 </div>
-
-                <div class="prof-exp__derecha">
-                    <span class="prof-exp__derecha_title">Text Encripter</span>
-                    <span class="prof-exp__derecha_desc">Challenge Oracle</span>
-                    <div class="botones">
-                        <button class="repositorio">Repository</button>
-                        <button class="ver__demo">See demo</button>
-                    </div>
+                <div class="prof__texts__derecha">
+                    <span class="text1">alura geek</span>
+                    <span class="text2">chalenge alura e-commerce</span>
                 </div>
-
-            </div>
-
-            <div class="prof__exp1">
-
-                <div class="prof-exp__izquierda">
-                    <img class="prof__exp__img" src="images/projects/forca2_print.png" alt="imagen de proyecto">
-                </div>
-
-                <div class="prof-exp__derecha">
-                    <span class="prof-exp__derecha_title">Game created using HTML and JavaScript</span>
-                    <span class="prof-exp__derecha_desc">Challenge Oracle</span>
-                    <div class="botones">
-                        <button class="repositorio">Repository</button>
-                        <button class="ver__demo">See demo</button>
-                    </div>
+                <div class="buttons">
+                    <button class="repositorio"><a href="https://github.com/FuentesIsma2023/Alura_geek_project.git" target="_blank"> Repository</a></button>
+                    <button class="ver__demo"><a href="https://alura-geek-project.vercel.app/" target="_blank"> see demo</a></button>
                 </div>
             </div>
         </section>
+<!-- ******************************CONTACT************************************************** -->
+        <section class="contact">
+            <div class="contact__container">
+                <h2 class="section__title">Contacto</h2>
+                <div class="contact__box">
+                    <span class="text1">Would you like to contact me?</span>
+                    <span class="text2">Complete the following form and I will contact you as soon as possible.</span> 
 
-        <section class="contacto">
-            <div class="contacto__container">
-                <div class="contacto__imagen"></div>
-                <div class="contacto__derecha">
-                    <h2 class="contacto__title">Contacto</h2>
-                    <p class="contact__description">Would you like to contact me? <br>Complete the following form and I will contact you as soon as possible.</p>
                     <form action="" class="contacto__form">
                         <ul class="contact__list">
-                            <li class="li__item"><input class="contact__name" placeholder="name" type="text"></li>
-                            <li class="li__item"><input class="contact__email" placeholder="email" type="text"></li>
-                            <li class="li__item"><input class="contact__asunto" placeholder="asunto" type="text"></li>
-                            <li class="li__item"><input class="contact__mensaje" placeholder="mensaje" type="text"></li>
+                            <input placeholder="name" type="text" required>
+                            <input placeholder="email" type="text" required>
+                            <input placeholder="asunto" type="text" required>
+                            <input placeholder="mensaje" type="text" required>
                         </ul>
                     </form>
                     <button class="contacto__boton" type="submit">Send message</button>
-                </div>
-
+                </div>    
             </div>
+            
         </section>
+
     </main>
     <footer class="rodapie">
         <div class="rodapie__texts">
