@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-
-/* ************************************************************************* */
 main{
     display: flex;
     flex-direction: column;
@@ -15,4 +13,11 @@ main{
     justify-content: center;
     box-shadow: 1px 2px 3px lightblue;
     background-image: linear-gradient(to right, #c0d3eb, #fff);
+}
+
+@media screen and (min-width:1024px) {
+    main{
+        padding: 2rem 2rem;
+        border:  solid blue;
+    }
 }
