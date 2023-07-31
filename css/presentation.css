@@ -71,8 +71,8 @@
     .presentation__content .presentation__photo{/*foto de perfil*/
         grid-column: 2/3;
         grid-row: -1/-2;
-        width: 550px;
-        height: 550px;
+        width: 350px;
+        height: 350px;
         
     }
     .presentation__content .presentation__navigation{
