@@ -26,3 +26,38 @@
     height: 80%;
     border-radius: 15px;
 }
+@media screen and (min-width:1024px) {
+    .academic__formation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .af__boxes{
+        
+    }
+    .af__box{
+        font-weight: 600;
+        height: 450px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;   
+        justify-content: space-around;
+        align-items: center;
+    }
+    .af__box img{
+        width: 650px;
+        border-radius: 15px;
+        box-shadow: 2px 4px 6px lightgray;
+    }
+    .af__box .school__name{
+        font-weight: 600;
+        font-size: 30px;
+        text-shadow: 2px 4px 6px lightblue;
+    }
+    .af__box .school__year{
+        font-weight: 600;
+        font-size: 20px;
+        text-shadow: 2px 4px 6px lightblue;
+    }
+}

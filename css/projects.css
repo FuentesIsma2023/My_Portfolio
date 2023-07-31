@@ -58,3 +58,68 @@
 .profesional__exp .buttons button:hover{
     scale: 1.1;
 }
+@media screen and (min-width:1024px) {
+    .profesional__exp{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .profesional__exp_box{
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        margin: 1.5rem 0;
+        
+        height: 650px;
+    }
+     .prof-exp__izquierda{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-content: center;
+        align-items: center;
+        
+        height: 550px;
+    }
+    .prof-exp__izquierda img{
+        width: 100%;
+        height: 100%;
+        box-shadow: 2px 4px 6px lightblue;
+    }
+    .prof__texts__derecha {
+        
+        grid-column: 1/3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .prof__texts__derecha .text1{
+        text-align: right;
+        grid-row: 1/2;
+    }
+    .prof__texts__derecha .text2{
+        
+        grid-row: 2/3;
+        margin-right: 5%;
+    }
+    .profesional__exp .buttons{
+        justify-content: space-between;
+        width: 550px;
+        height: 80px;
+        grid-column: 2/3;
+        grid-row: -2/-3;
+        
+        
+    }
+    .profesional__exp .buttons button{
+        font-weight: 700;
+        box-shadow: 2px 4px 6px lightblue;
+        font-size: 25px;
+        text-shadow: 2px 4px 6px lightblue;;
+    }
+    .profesional__exp .buttons button:hover{
+        
+    }
+}

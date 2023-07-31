@@ -28,13 +28,14 @@ header .nav__menu{
     display: none;
 }
 @media screen and (min-width:1024px) {
-    .header{
+    header{
         display: flex;
         padding: 2rem;
         justify-content: space-between;
     }
     .name__vector{
         display: flex;
+        
     }
     .name{
         font-size: 30px;
