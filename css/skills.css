@@ -32,3 +32,25 @@
 .skills__box h3{
     display: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .skills__box{
+        box-shadow: 2px 4px 6px lightblue;
+        height: 250px;
+        width: 250px;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin: 0 20px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .skills__box:hover{
+        scale: 1.1;
+        box-shadow: -2px -4px -6px lightblue;
+    }
+    .skills__box h3{
+        font-size: 30px;
+        display: inline;
+        text-shadow: 2px 4px 6px lightblue;
+    }
+}

@@ -27,3 +27,66 @@
 header .nav__menu{
     display: none;
 }
+@media screen and (min-width:1024px) {
+    .header{
+        display: flex;
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .name__vector{
+        display: flex;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .name .lastname1{
+        font-size: 30px;
+        display: inline;
+    }
+    .name .lastname2{
+        font-size: 30px;
+        display: inline;
+    }
+    .name__vector img{
+        display: inline;
+        width: 35px;
+        margin-right: 15px;
+    }
+    header .nav__menu{
+        text-align: right;
+        display: inline;
+        
+    }
+    header .nav__menu a:hover{
+        scale: 1.3;
+        font-size: 35px;
+        text-shadow: 1px 2px 3px lightblue;
+    }
+    header .nav__menu a{
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: 600;
+        text-align: right;
+        margin-left: 25px;
+        transition: 1.1s;
+    }
+    header .mailto{
+        width: 350px;
+        height: 50px;
+        box-shadow: 1px 2px 3px lightblue;
+        background-color: #e7f3f7;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        font-size: 25px;
+        display: flex;
+        border: solid lightblue;
+        text-decoration: none;
+        transition: 1s;
+    }
+    header .mailto:hover{
+        scale: 1.1;
+        font-weight: 700;
+    }
+}
