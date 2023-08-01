@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: center;
     height: 450px;
+    box-shadow: 2px 4px 6px lightgray;
+    border-radius: 15px;
+    margin-top: 2rem;
 }
 .hobbies .hobbies__boxes{
     display: flex;

@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-image: linear-gradient(to right, #c0d3eb, #fff);
+    background: linear-gradient(to right, #c0d3eb, #fff);
+    box-shadow: 2px 4px 6px lightgray;
 }
 .name__vector{
     display: flex;
