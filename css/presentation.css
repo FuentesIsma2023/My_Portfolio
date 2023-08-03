@@ -52,6 +52,7 @@
     box-shadow: 5px 2px 13px lightblue;
 }
 @media screen and (min-width:1024px) {
+    
     .presentation__content{
         
         /* border: solid lightblue; */
@@ -105,5 +106,7 @@
     .presentation__content .presentation__navigation a i{
         margin-right: 20px;
     }
-    
+    .presentation__content .presentation__navigation a:last-child{
+        display: inline;
+    }
 }
